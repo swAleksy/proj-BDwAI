@@ -20,6 +20,12 @@ namespace projBDwAI.Models.Context
                 new Priority { Id = 2, Name = "Średni" },
                 new Priority { Id = 3, Name = "Wysoki" }
             );
+
+            modelBuilder.Entity<Bug>()
+                .HasOne(b => b.Priority)
+                .WithMany()
+                .HasForeignKey(b => b.PriorityId)
+                .OnDelete(DeleteBehavior.Restrict); // Use Restrict to prevent cascading deletes
         }
     }
 }

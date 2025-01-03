@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using projBDwAI.Models.Context;
 
@@ -11,9 +12,11 @@ using projBDwAI.Models.Context;
 namespace projBDwAI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250103173502_VerifyDatabase")]
+    partial class VerifyDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +43,6 @@ namespace projBDwAI.Migrations
                     b.Property<int>("PriorityId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PriorityId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -51,8 +51,6 @@ namespace projBDwAI.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PriorityId");
-
-                    b.HasIndex("PriorityId1");
 
                     b.ToTable("Bugs");
                 });
@@ -141,14 +139,10 @@ namespace projBDwAI.Migrations
             modelBuilder.Entity("projBDwAI.Models.Bug", b =>
                 {
                     b.HasOne("projBDwAI.Models.Priority", "Priority")
-                        .WithMany()
-                        .HasForeignKey("PriorityId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("projBDwAI.Models.Priority", null)
                         .WithMany("Bugs")
-                        .HasForeignKey("PriorityId1");
+                        .HasForeignKey("PriorityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Priority");
                 });

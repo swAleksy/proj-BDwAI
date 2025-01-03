@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using projBDwAI.Models.Context;
+using System;
 
 namespace projBDwAI
 {

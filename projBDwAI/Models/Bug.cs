@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace projBDwAI.Models
 {
@@ -17,6 +18,7 @@ namespace projBDwAI.Models
 
         [Required(ErrorMessage = "Priority is required")]
         public int PriorityId { get; set; }
-        public Priority Priority { get; set; }
+        [ValidateNever]
+        public Priority? Priority { get; set; }
     }
 }

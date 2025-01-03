@@ -17,24 +17,37 @@ namespace projBDwAI.Controllers
         }
 
         [HttpGet]
-        public ActionResult Create()
+        public IActionResult Create()
         {
-            ViewBag.PriorityList = new SelectList(_context.Priorities.ToList(), "Id", "Name");
+            ViewBag.PriorityList = new Microsoft.AspNetCore.Mvc.Rendering.SelectList(_context.Priorities.ToList(), "Id", "Name");
             return View();
         }
 
         [HttpPost]
-        public ActionResult Create(Bug bug)
+        public IActionResult Create(Bug bug)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                bug.CreatedDate = DateTime.Now; 
-                _context.Bugs.Add(bug); 
-                _context.SaveChanges(); 
-                return RedirectToAction("Index"); 
+                System.Diagnostics.Debug.WriteLine("ModelState is invalid.");
+                foreach (var entry in ModelState)
+                {
+                    System.Diagnostics.Debug.WriteLine($"Key: {entry.Key}, State: {entry.Value.ValidationState}");
+                    foreach (var error in entry.Value.Errors)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Error: {error.ErrorMessage}");
+                    }
+                }
+
+                // Repopulate the dropdown
+                ViewBag.PriorityList = new SelectList(_context.Priorities.ToList(), "Id", "Name");
+                return View(bug);
             }
-            ViewBag.PriorityList = new SelectList(_context.Priorities.ToList(), "Id", "Name");
-            return View(bug); // powrot do formularza 
+
+            bug.CreatedDate = DateTime.Now;
+            _context.Bugs.Add(bug);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
         }
+
     }
 }
