@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using projBDwAI.Models.Context;
+
 namespace projBDwAI
 {
     public class Program
@@ -5,6 +9,11 @@ namespace projBDwAI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<AppDbContext>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -24,6 +33,7 @@ namespace projBDwAI
 
             app.UseRouting();
 
+            
             app.UseAuthorization();
 
             app.MapControllerRoute(
