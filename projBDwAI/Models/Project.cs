@@ -2,12 +2,14 @@
 
 namespace projBDwAI.Models
 {
-    public class Priority
+    public class Project
     {
         public int Id { get; set; }
 
         [Required]
-        public string Level { get; set; } // Low, Medium, High
+        public string Name { get; set; }
+
+        public string Description { get; set; }
 
         public ICollection<Bug> Bugs { get; set; } = new List<Bug>();
     }

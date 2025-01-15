@@ -10,23 +10,23 @@ using projBDwAI.Models.Context;
 
 namespace projBDwAI.Controllers
 {
-    public class BugsController : Controller
+    public class CommentsController : Controller
     {
         private readonly AppDbContext _context;
 
-        public BugsController(AppDbContext context)
+        public CommentsController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Bugs
+        // GET: Comments
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Bugs.Include(b => b.Priority).Include(b => b.Project);
+            var appDbContext = _context.Comments.Include(c => c.Bug).Include(c => c.User);
             return View(await appDbContext.ToListAsync());
         }
 
-        // GET: Bugs/Details/5
+        // GET: Comments/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -34,46 +34,45 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs
-                .Include(b => b.Priority)
-                .Include(b => b.Project)
+            var comment = await _context.Comments
+                .Include(c => c.Bug)
+                .Include(c => c.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (bug == null)
+            if (comment == null)
             {
                 return NotFound();
             }
 
-            return View(bug);
+            return View(comment);
         }
 
-        // GET: Bugs/Create
+        // GET: Comments/Create
         public IActionResult Create()
         {
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level");
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name");
+            ViewData["BugId"] = new SelectList(_context.Bugs, "Id", "Description");
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email");
             return View();
         }
 
-        // POST: Bugs/Create
+        // POST: Comments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,CreatedAt,PriorityId,ProjectId")] Bug bug)
+        public async Task<IActionResult> Create([Bind("Id,Content,CreatedAt,BugId,UserId")] Comment comment)
         {
             if (ModelState.IsValid)
             {
-                bug.CreatedAt = DateTime.Now;
-                _context.Add(bug);
+                _context.Add(comment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            ViewData["BugId"] = new SelectList(_context.Bugs, "Id", "Description", comment.BugId);
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", comment.UserId);
+            return View(comment);
         }
 
-        // GET: Bugs/Edit/5
+        // GET: Comments/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,24 +80,24 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs.FindAsync(id);
-            if (bug == null)
+            var comment = await _context.Comments.FindAsync(id);
+            if (comment == null)
             {
                 return NotFound();
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            ViewData["BugId"] = new SelectList(_context.Bugs, "Id", "Description", comment.BugId);
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", comment.UserId);
+            return View(comment);
         }
 
-        // POST: Bugs/Edit/5
+        // POST: Comments/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CreatedAt,PriorityId,ProjectId")] Bug bug)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Content,CreatedAt,BugId,UserId")] Comment comment)
         {
-            if (id != bug.Id)
+            if (id != comment.Id)
             {
                 return NotFound();
             }
@@ -107,12 +106,12 @@ namespace projBDwAI.Controllers
             {
                 try
                 {
-                    _context.Update(bug);
+                    _context.Update(comment);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BugExists(bug.Id))
+                    if (!CommentExists(comment.Id))
                     {
                         return NotFound();
                     }
@@ -123,12 +122,12 @@ namespace projBDwAI.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            ViewData["BugId"] = new SelectList(_context.Bugs, "Id", "Description", comment.BugId);
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", comment.UserId);
+            return View(comment);
         }
 
-        // GET: Bugs/Delete/5
+        // GET: Comments/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,36 +135,36 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs
-                .Include(b => b.Priority)
-                .Include(b => b.Project)
+            var comment = await _context.Comments
+                .Include(c => c.Bug)
+                .Include(c => c.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (bug == null)
+            if (comment == null)
             {
                 return NotFound();
             }
 
-            return View(bug);
+            return View(comment);
         }
 
-        // POST: Bugs/Delete/5
+        // POST: Comments/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var bug = await _context.Bugs.FindAsync(id);
-            if (bug != null)
+            var comment = await _context.Comments.FindAsync(id);
+            if (comment != null)
             {
-                _context.Bugs.Remove(bug);
+                _context.Comments.Remove(comment);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BugExists(int id)
+        private bool CommentExists(int id)
         {
-            return _context.Bugs.Any(e => e.Id == id);
+            return _context.Comments.Any(e => e.Id == id);
         }
     }
 }

@@ -10,23 +10,22 @@ using projBDwAI.Models.Context;
 
 namespace projBDwAI.Controllers
 {
-    public class BugsController : Controller
+    public class PrioritiesController : Controller
     {
         private readonly AppDbContext _context;
 
-        public BugsController(AppDbContext context)
+        public PrioritiesController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Bugs
+        // GET: Priorities
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Bugs.Include(b => b.Priority).Include(b => b.Project);
-            return View(await appDbContext.ToListAsync());
+            return View(await _context.Priorities.ToListAsync());
         }
 
-        // GET: Bugs/Details/5
+        // GET: Priorities/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -34,46 +33,39 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs
-                .Include(b => b.Priority)
-                .Include(b => b.Project)
+            var priority = await _context.Priorities
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (bug == null)
+            if (priority == null)
             {
                 return NotFound();
             }
 
-            return View(bug);
+            return View(priority);
         }
 
-        // GET: Bugs/Create
+        // GET: Priorities/Create
         public IActionResult Create()
         {
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level");
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name");
             return View();
         }
 
-        // POST: Bugs/Create
+        // POST: Priorities/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,CreatedAt,PriorityId,ProjectId")] Bug bug)
+        public async Task<IActionResult> Create([Bind("Id,Level")] Priority priority)
         {
             if (ModelState.IsValid)
             {
-                bug.CreatedAt = DateTime.Now;
-                _context.Add(bug);
+                _context.Add(priority);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            return View(priority);
         }
 
-        // GET: Bugs/Edit/5
+        // GET: Priorities/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,24 +73,22 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs.FindAsync(id);
-            if (bug == null)
+            var priority = await _context.Priorities.FindAsync(id);
+            if (priority == null)
             {
                 return NotFound();
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            return View(priority);
         }
 
-        // POST: Bugs/Edit/5
+        // POST: Priorities/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CreatedAt,PriorityId,ProjectId")] Bug bug)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Level")] Priority priority)
         {
-            if (id != bug.Id)
+            if (id != priority.Id)
             {
                 return NotFound();
             }
@@ -107,12 +97,12 @@ namespace projBDwAI.Controllers
             {
                 try
                 {
-                    _context.Update(bug);
+                    _context.Update(priority);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BugExists(bug.Id))
+                    if (!PriorityExists(priority.Id))
                     {
                         return NotFound();
                     }
@@ -123,12 +113,10 @@ namespace projBDwAI.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PriorityId"] = new SelectList(_context.Priorities, "Id", "Level", bug.PriorityId);
-            ViewData["ProjectId"] = new SelectList(_context.Projects, "Id", "Name", bug.ProjectId);
-            return View(bug);
+            return View(priority);
         }
 
-        // GET: Bugs/Delete/5
+        // GET: Priorities/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,36 +124,34 @@ namespace projBDwAI.Controllers
                 return NotFound();
             }
 
-            var bug = await _context.Bugs
-                .Include(b => b.Priority)
-                .Include(b => b.Project)
+            var priority = await _context.Priorities
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (bug == null)
+            if (priority == null)
             {
                 return NotFound();
             }
 
-            return View(bug);
+            return View(priority);
         }
 
-        // POST: Bugs/Delete/5
+        // POST: Priorities/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var bug = await _context.Bugs.FindAsync(id);
-            if (bug != null)
+            var priority = await _context.Priorities.FindAsync(id);
+            if (priority != null)
             {
-                _context.Bugs.Remove(bug);
+                _context.Priorities.Remove(priority);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BugExists(int id)
+        private bool PriorityExists(int id)
         {
-            return _context.Bugs.Any(e => e.Id == id);
+            return _context.Priorities.Any(e => e.Id == id);
         }
     }
 }

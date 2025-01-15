@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace projBDwAI.Models
 {
@@ -7,18 +6,23 @@ namespace projBDwAI.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Title is required")]
-        [StringLength(100, ErrorMessage = "Title cannot be longer than 100 characters")]
+        [Required]
         public string Title { get; set; }
 
-        [Required(ErrorMessage = "Description is required")]
+        [Required]
         public string Description { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        [Required]
+        public DateTime CreatedAt { get; set; }
 
-        [Required(ErrorMessage = "Priority is required")]
+        [Required]
         public int PriorityId { get; set; }
-        [ValidateNever]
-        public Priority? Priority { get; set; }
+        public Priority Priority { get; set; }
+
+        [Required]
+        public int ProjectId { get; set; }
+        public Project Project { get; set; }
+
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
