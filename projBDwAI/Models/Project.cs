@@ -11,7 +11,7 @@ namespace projBDwAI.Models
 
         public string Description { get; set; }
 
-        public ICollection<Bug> Bugs { get; set; }
+        public ICollection<Bug> Bugs { get; set; } = new List<Bug>();
     }
 
 }

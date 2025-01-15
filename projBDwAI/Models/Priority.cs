@@ -9,7 +9,7 @@ namespace projBDwAI.Models
         [Required]
         public string Level { get; set; } // Low, Medium, High
 
-        public ICollection<Bug> Bugs { get; set; }
+        public ICollection<Bug> Bugs { get; set; } = new List<Bug>();
     }
 
 }

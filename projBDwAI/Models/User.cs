@@ -15,7 +15,7 @@ namespace projBDwAI.Models
         [Required]
         public string Role { get; set; } // Admin, User
 
-        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 
 }

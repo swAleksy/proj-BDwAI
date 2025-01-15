@@ -23,6 +23,6 @@ namespace projBDwAI.Models
         public int ProjectId { get; set; }
         public Project Project { get; set; }
 
-        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
