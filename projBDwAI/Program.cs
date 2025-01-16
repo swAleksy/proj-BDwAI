@@ -1,6 +1,7 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using projBDwAI.Models.Context;
+using projBDwAI.Models;
 
 namespace projBDwAI
 {
@@ -9,37 +10,68 @@ namespace projBDwAI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            // Konfiguracja bazy danych
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+
+            // Konfiguracja Identity
+            builder.Services.AddDefaultIdentity<User>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>();
 
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                // Inicjalizacja ról i użytkowników
+                var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                var userManager = services.GetRequiredService<UserManager<User>>();
+
+                if (!roleManager.RoleExistsAsync("Admin").Result)
+                {
+                    roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+                }
+
+                string adminEmail = "admin@example.com";
+                if (userManager.FindByEmailAsync(adminEmail).Result == null)
+                {
+                    var adminUser = new User
+                    {
+                        UserName = adminEmail,
+                        Email = adminEmail,
+                        FirstName = "Admin", // Wstaw odpowiednią wartość
+                        LastName = "User"    // Wstaw odpowiednią wartość
+                    };
+
+                    var result = userManager.CreateAsync(adminUser, "AdminPassword123!").Result;
+                    if (result.Succeeded)
+                    {
+                        userManager.AddToRoleAsync(adminUser, "Admin").Wait();
+                    }
+                }
+            }
+
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
-            
+            app.MapRazorPages();
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
 
             app.Run();
         }
