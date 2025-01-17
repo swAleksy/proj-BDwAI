@@ -43,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -87,6 +83,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\migrations\\20250117152927_xddddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\migrations\\20250117152927_xddddd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -96,8 +96,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -108,8 +116,7 @@
               "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T16:09:11.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T16:09:11.603Z"
             },
             {
               "$type": "Document",
@@ -121,12 +128,11 @@
               "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAA0wIAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T21:27:14.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T21:27:14.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Context\\AppDbContext.cs",
@@ -138,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.AspNetUsers.sql",
@@ -155,12 +161,11 @@
               "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T21:43:45.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T21:43:45.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\User.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\User.cs",
@@ -185,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Bugs\\Index.cshtml",
               "RelativeDocumentMoniker": "projBDwAI\\Views\\Bugs\\Index.cshtml",
@@ -205,8 +210,7 @@
               "RelativeToolTip": "projBDwAI\\Models\\Bug.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:22.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:22.958Z"
             },
             {
               "$type": "Document",
@@ -218,8 +222,7 @@
               "RelativeToolTip": "projBDwAI\\Models\\Priority.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:02.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:02.663Z"
             },
             {
               "$type": "Document",
@@ -231,8 +234,7 @@
               "RelativeToolTip": "projBDwAI\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:20.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:20.096Z"
             },
             {
               "$type": "Document",
@@ -244,8 +246,7 @@
               "RelativeToolTip": "projBDwAI\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:21:30.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:21:30.475Z"
             },
             {
               "$type": "Document",
@@ -257,12 +258,11 @@
               "RelativeToolTip": "projBDwAI\\Models\\Project.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:01:49.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:01:49.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "BugsController.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\BugsController.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Controllers\\BugsController.cs",
@@ -274,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
               "RelativeDocumentMoniker": "projBDwAI\\appsettings.json",
@@ -282,8 +282,7 @@
               "RelativeToolTip": "projBDwAI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T15:09:14.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T15:09:14.976Z"
             },
             {
               "$type": "Document",
@@ -295,12 +294,11 @@
               "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:43:05.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:43:05.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "20250117152927_xDDDDD.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
@@ -308,12 +306,11 @@
               "RelativeToolTip": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:29:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T15:29:27.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "projBDwAI.csproj",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\projBDwAI.csproj",
               "RelativeDocumentMoniker": "projBDwAI\\projBDwAI.csproj",
@@ -325,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "projBDwAI\\ScaffoldingReadMe.txt",
@@ -337,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "dbo.Projects.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql",
@@ -346,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Controllers\\ProjectsController.cs",
@@ -358,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Projects\\Create.cshtml",
               "RelativeDocumentMoniker": "projBDwAI\\Views\\Projects\\Create.cshtml",
