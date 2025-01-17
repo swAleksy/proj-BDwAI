@@ -12,8 +12,13 @@ using projBDwAI.Models.Context;
 namespace projBDwAI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
+<<<<<<<< Updated upstream:projBDwAI/Migrations/20250115213401_user-frompdf.Designer.cs
     [Migration("20250115213401_user-frompdf")]
     partial class userfrompdf
+========
+    [Migration("20250115205316_auth-user2")]
+    partial class authuser2
+>>>>>>>> Stashed changes:projBDwAI/Migrations/20250115205316_auth-user2.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

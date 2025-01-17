@@ -72,7 +72,10 @@ namespace projBDwAI.Areas.Identity.Pages.Account
         public class InputModel
         {
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
             [Required]
             [Display(Name = "FirstName")]
             [StringLength(255, ErrorMessage = "max 255.")]
@@ -126,6 +129,12 @@ namespace projBDwAI.Areas.Identity.Pages.Account
             {
                 var user = CreateUser();
 
+<<<<<<< Updated upstream
+=======
+                user.FirstName = Input.FirstName;
+                user.LastName = Input.LastName;
+
+>>>>>>> Stashed changes
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

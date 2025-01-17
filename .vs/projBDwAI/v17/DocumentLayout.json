@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\controllers\\bugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\controllers\\bugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\views\\bugs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\views\\bugs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\projbdwai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\projbdwai.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T16:09:11.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAA0wIAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:27:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:38:36.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-16T10:10:53.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T21:43:45.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\User.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:05:07.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Program.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Program.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Program.cs",
+              "RelativeToolTip": "projBDwAI\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowB8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:52:17.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Bugs\\Index.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Views\\Bugs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Bugs\\Index.cshtml",
+              "RelativeToolTip": "projBDwAI\\Views\\Bugs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T10:21:54.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bug.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Bug.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\Bug.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Bug.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\Bug.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:05:22.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\Priority.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Priority.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:05:02.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Comment.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:05:20.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:21:30.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Project.cs",
+              "RelativeToolTip": "projBDwAI\\Models\\Project.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:01:49.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BugsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\BugsController.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Controllers\\BugsController.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\BugsController.cs",
+              "RelativeToolTip": "projBDwAI\\Controllers\\BugsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:44:20.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
+              "RelativeDocumentMoniker": "projBDwAI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
+              "RelativeToolTip": "projBDwAI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T15:09:14.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T12:43:05.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250117152927_xDDDDD.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
+              "RelativeToolTip": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T15:29:27.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "projBDwAI.csproj",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\projBDwAI.csproj",
+              "RelativeDocumentMoniker": "projBDwAI\\projBDwAI.csproj",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\projBDwAI.csproj",
+              "RelativeToolTip": "projBDwAI\\projBDwAI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-15T12:33:32.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "projBDwAI\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "projBDwAI\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-15T12:35:38.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Projects.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ErrorManagementApp/True/SqlTable/dbo.Projects.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-15T11:56:31.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "projBDwAI\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwD4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:57:12.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Projects\\Create.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Views\\Projects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Views\\Projects\\Create.cshtml",
+              "RelativeToolTip": "projBDwAI\\Views\\Projects\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T11:57:09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
