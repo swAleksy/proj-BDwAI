@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,26 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:projBDwAI\\Migrations\\20250117152927_xDDDDD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|solutionrelative:projbdwai\\models\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01778BB5-57D6-4EFE-B487-0658AC546B66}|projBDwAI\\projBDwAI.csproj|c:\\users\\acme\\desktop\\up\\informatyka - s5\\bdwai\\projbdwai\\projbdwai\\controllers\\bugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -96,45 +96,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "DocumentIndex": 1,
+              "Title": "20250117203926_trzymajciemnie.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs",
+              "RelativeToolTip": "projBDwAI\\Migrations\\20250117203926_trzymajciemnie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T16:09:11.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAA0wIAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T21:27:14.451Z",
+              "WhenOpened": "2025-01-17T20:39:27.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Context\\AppDbContext.cs",
               "RelativeToolTip": "projBDwAI\\Models\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswCUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAEwC8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T20:38:36.671Z"
+              "WhenOpened": "2025-01-15T20:38:36.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +143,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
+              "RelativeDocumentMoniker": "projBDwAI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
+              "RelativeToolTip": "projBDwAI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T15:09:14.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAxwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:27:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -172,13 +194,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Program.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Program.cs",
               "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Program.cs",
               "RelativeToolTip": "projBDwAI\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowB8AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwB8AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T12:52:17.995Z",
               "EditorCaption": ""
@@ -197,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Bug.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Bug.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Bug.cs",
@@ -205,12 +227,23 @@
               "RelativeToolTip": "projBDwAI\\Models\\Bug.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:22.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:22.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T16:09:11.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Priority.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Priority.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Priority.cs",
@@ -218,12 +251,11 @@
               "RelativeToolTip": "projBDwAI\\Models\\Priority.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:02.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:02.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Comment.cs",
@@ -231,12 +263,11 @@
               "RelativeToolTip": "projBDwAI\\Models\\Comment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:05:20.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:05:20.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\ErrorViewModel.cs",
@@ -244,12 +275,11 @@
               "RelativeToolTip": "projBDwAI\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:21:30.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:21:30.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Models\\Project.cs",
               "RelativeDocumentMoniker": "projBDwAI\\Models\\Project.cs",
@@ -257,8 +287,7 @@
               "RelativeToolTip": "projBDwAI\\Models\\Project.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:01:49.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:01:49.831Z"
             },
             {
               "$type": "Document",
@@ -274,20 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
-              "RelativeDocumentMoniker": "projBDwAI\\appsettings.json",
-              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\appsettings.json",
-              "RelativeToolTip": "projBDwAI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T15:09:14.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -295,21 +311,7 @@
               "RelativeToolTip": "projBDwAI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:43:05.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250117152927_xDDDDD.cs",
-              "DocumentMoniker": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
-              "RelativeDocumentMoniker": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
-              "ToolTip": "C:\\Users\\ACME\\Desktop\\UP\\Informatyka - s5\\BDwAI\\projBDwAI\\projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
-              "RelativeToolTip": "projBDwAI\\Migrations\\20250117152927_xDDDDD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T15:29:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:43:05.042Z"
             },
             {
               "$type": "Document",
